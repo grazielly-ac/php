@@ -1,7 +1,7 @@
 ## Estudo PHP
 
 Esse repositório é de estudos acerca da linguagem PHP.
-Será alimentado diariamente, conforme necessidade pessoal.
+Será alimentado diariamente, conforme necessidade pessoal. Foco em desenvolvimento com Laravel.
 
 ### PHP básico
 
@@ -21,3 +21,13 @@ Será alimentado diariamente, conforme necessidade pessoal.
 
 1. Habilitada a extensão PHP intl para aceitar a formatação de acordo com locale
 2. Para rodar o servidor PHP -> php -S localhost:8080
+
+
+#### Assuntos a serem estudados posteriormente
+
+1. Laravel
+2. Clean Code
+3. Design Pattern
+4. Domain Driver Design
+5. SOLID
+6. Banco de dados
