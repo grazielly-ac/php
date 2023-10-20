@@ -120,6 +120,30 @@ foreach($headers as $header){
  echo "</tbody>";
  echo "</table>";
  
+ $enderecoPessoa = [
+    "Ana" => [
+        "rua"=> "Rua da saudade, nº 1221",
+        "bairro" => "Jardim da Luz",
+        "cidade" => "São Paulo",
+        "estado" => "São Paulo"
+    ],
+    "Marta" => [
+        "rua"=> "Rua da esperanza, nº 121",
+        "bairro" => "Jardim da Paz",
+        "cidade" => "Rio de Janeiro",
+        "estado" => "Rio de Janeiro"
+    ],
+ ];
+
+ foreach($enderecoPessoa as $nome => $chave){
+    echo "<br>$nome";
+    foreach($chave as $valor){
+        echo "<br>$valor";
+    }
+    echo "<br>";
+ }
+
+ print_r($enderecoPessoa['Marta']['cidade']);
 
 //SORTING ARRAY
 

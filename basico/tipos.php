@@ -74,3 +74,4 @@ enum StatusEscalar:string{
 }
 echo "<br>";
 print StatusEscalar::Inativo -> value;
+

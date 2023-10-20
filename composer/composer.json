@@ -1,0 +1,17 @@
+{
+    "name": "grazi/composer",
+    "description": "estudo do composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Grazi\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grazielly Cunha",
+            "email": "grazielly_cunha@hotmail.com"
+        }
+    ],
+    "require": {}
+}
