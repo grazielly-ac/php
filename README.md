@@ -17,8 +17,10 @@ Será alimentado diariamente, conforme necessidade pessoal. Foco em desenvolvime
 
 1. Debug e exceções
 2. Gerenciando pacotes com [Composer](https://getcomposer.org/doc/01-basic-usage.md#introduction) 
-3.
-4.
+3. Link para busca e instalação de dependências [Packagist](https://packagist.org/)
+4. Uso dependência mpdf para gerar PDF
+5. Para executar o projeto pasta composer, basta acessar a pasta e no terminal => php -S localhost:8080
+6. Programação Orientada a Objetos em PHP
 
 #### Execução
 
@@ -40,22 +42,3 @@ Será alimentado diariamente, conforme necessidade pessoal. Foco em desenvolvime
 6. Banco de dados
 7. TDD - Test Driven Development
 
-
-#### Assuntos a serem estudados posteriormente
-
-1. Laravel
-2. Clean Code
-3. Design Pattern
-4. DDD - Domain Driven Design
-5. SOLID
-6. Banco de dados
-7. TDD - Test Driven Development
-
-#### Assuntos a serem estudados posteriormente
-
-1. Laravel
-2. Clean Code
-3. Design Pattern
-4. Domain Driver Design
-5. SOLID
-6. Banco de dados

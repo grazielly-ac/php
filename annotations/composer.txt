@@ -3,6 +3,8 @@ O Composer é uma ferramenta para gerenciar as dependências de um projeto PHP. 
 
 ---------------- Composer - o que é e para que serve --------------------
 
+
+
 ---------------- Para instalação -------------
 
 1. PHP deve estar instalado => php --version
@@ -10,9 +12,46 @@ O Composer é uma ferramenta para gerenciar as dependências de um projeto PHP. 
 
 ---------------- Para instalação -------------
 
+
+
+
 ---------------- Alguns comandos -------------
 
 composer init => criar arquivo de configuração que fará setup do projeto php que é o composer.json
-composer.json => 
 
+composer.json => 
+              => 'contexto dev' "require-dev" (contexto de desenvolvimento, exemplo testes unitários)
+
+composer require e composer install => instalar dependências
+
+composer.lock => versionamento de dependências (composer.lock armazena versão das dependências que estão sendo utilizadas, gerando segurança)
+
+composer update => atualiza todas as dependências
+
+composer remove => desinstalar dependências
 ---------------- Alguns comandos -------------
+
+
+
+---------------- Buscar dependências -------------
+Buscar: Packagist, Github
+
+Exemplo de instalação pdf - mpdf no site Packagist
+composer require mpdf/mpdf => (dependência pdf, ver composer.json)
+---------------- Buscar dependências -------------
+
+
+
+---------------- Vendor/autoload.php -------------
+O autoload é indispensável para mapeamento de classes e dependências. Ele faz todo o mapeamento das dependências que instalamos no projeto e preciso ter um require no meu index para chamar o arquivo autoload. Ex:
+
+require __DIR__ . '/vendor/autoload.php';
+
+dessa forma posso fazer uso das minhas dependências instaladas
+
+---------------- Vendor/autoload.php -------------
+
+
+---------------- Implementação e execução -------------
+---------------- Implementação e execução -------------
+

@@ -13,5 +13,7 @@
             "email": "grazielly_cunha@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
 }
