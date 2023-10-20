@@ -1,0 +1,18 @@
+---------------- Composer - o que é e para que serve --------------------
+O Composer é uma ferramenta para gerenciar as dependências de um projeto PHP. Algumas das funcionalidades do Composer incluem a instalação, atualização e remoção de dependências. Ele também permite a execução de scripts e a extensão do comportamento padrão por meio de plugins. O Composer pode determinar dependências que serão instaladas no modo de desenvolvimento ou em modo de produção. Ele também fornece autoload para os arquivos do projeto, além dos pacotes de terceiro
+
+---------------- Composer - o que é e para que serve --------------------
+
+---------------- Para instalação -------------
+
+1. PHP deve estar instalado => php --version
+2. Realizar instalação Composer conforme link da documentação e S.O 
+
+---------------- Para instalação -------------
+
+---------------- Alguns comandos -------------
+
+composer init => criar arquivo de configuração que fará setup do projeto php que é o composer.json
+composer.json => 
+
+---------------- Alguns comandos -------------
