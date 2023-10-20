@@ -21,7 +21,10 @@ Será alimentado diariamente, conforme necessidade pessoal. Foco em desenvolvime
 4. Uso dependência mpdf para gerar PDF
 5. Para executar o projeto pasta composer, basta acessar a pasta e no terminal => php -S localhost:8080
 6. Programação Orientada a Objetos em PHP
-
+    1. Conceito e aplicação
+    2. Pilares: Abstração e Encapsulamento
+    3. Pilares: Herança e Polimorfismo
+7. 
 #### Execução
 
 1. Para executar no Prompt o código referente ao arquivo desejado, acessar a pasta e digitar -> php nomeArquivo.php
