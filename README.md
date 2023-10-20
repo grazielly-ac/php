@@ -24,7 +24,7 @@ Será alimentado diariamente, conforme necessidade pessoal. Foco em desenvolvime
     1. Conceito e aplicação
     2. Pilares: Abstração e Encapsulamento
     3. Pilares: Herança e Polimorfismo
-7. 
+7.  
 #### Execução
 
 1. Para executar no Prompt o código referente ao arquivo desejado, acessar a pasta e digitar -> php nomeArquivo.php
